@@ -10,23 +10,23 @@ function convertDate(dateString){
 }
 
 $('#worldwideForm').on('submit',function(){
-	console.log(dateBegin.value);
-    var begin = dateBegin.value;
-    var initialDate=convertDate(begin);
-    console.log(dateEnd.value);
-    var end = dateEnd.value;
-    var finalDate=convertDate(dateEnd.value);
-    var inputDate=initialDate+"-"+finalDate;
-    console.log(inputDate);
+  console.log(dateBegin.value);
+  var begin = dateBegin.value;
+  var initialDate=convertDate(begin);
+  console.log(dateEnd.value);
+  var end = dateEnd.value;
+  var finalDate=convertDate(dateEnd.value);
+  var inputDate=initialDate+"-"+finalDate;
+  console.log(inputDate);
 
-    var oArgs = {
-    app_key: "BNC5TfKMt8nqQmcd",
-    q: query.value,
-    where: where.value, 
-    "date": inputDate,
-    page_size: quantity.value,
-    sort_order: "popularity",
-   	};
+  var oArgs = {
+  app_key: "BNC5TfKMt8nqQmcd",
+  q: query.value,
+  where: where.value, 
+  "date": inputDate,
+  page_size: quantity.value,
+  sort_order: "popularity",
+  };
 
    	EVDB.API.call("/events/search", oArgs, function(oData) {
     	console.log(oData);
