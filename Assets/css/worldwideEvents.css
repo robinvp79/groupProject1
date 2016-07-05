@@ -73,6 +73,30 @@ label{
 	color: white;
 }
 
+#copyright{
+    text-align: center;
+    background-color: #8b4513;
+    padding-top: 5px;
+}
+
+.noResults{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 250%;
+    color: white;
+    font-weight: bolder;
+}
+
+.fillFields{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 250%;
+    color: white;
+    font-weight: bolder;
+}
+
 #eventsInfo{
     margin-top: 10px;
     background: linear-gradient(41deg, #1162c1, #d25f4c, #fdbc38, #d25f4c, #1162c1);

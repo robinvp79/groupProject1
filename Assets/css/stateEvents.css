@@ -49,3 +49,18 @@ label{
 	text-align: center;
 	font-size: 20px;
 }
+
+#copyright{
+    text-align: center;
+    background-color: #8b4513;
+    padding-top: 5px;
+}
+
+.addState{
+	font-weight: bolder;
+	background-color: red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 150%;
+    color: white;
+}

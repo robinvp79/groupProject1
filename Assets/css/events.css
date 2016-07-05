@@ -82,10 +82,35 @@ label{
 	color: white;
 }
 
-#copyright{
-    text-align: center;
+p{
+    text-align: justify;
 }
 
+button {
+   width: 200px;
+   background-color: #8b4513;
+   color: white;
+}
+
+.nycLinks{
+    color: #ffab40;
+    text-transform: uppercase;
+}
+
+#copyright{
+    text-align: center;
+    background-color: #8b4513;
+    padding-top: 5px;
+}
+
+.fillFields{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 200%;
+    color: red;
+    font-weight: bolder;
+}
 
 /* The Modal (background) */
 .modal {
