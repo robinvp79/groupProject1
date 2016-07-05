@@ -1,0 +1,104 @@
+body{
+
+	margin-left: 15px;
+	margin-right:15px;
+}
+
+#main {
+	background-color: #ff9800;
+}
+
+.brand-logo{
+	margin-left: 15px;
+}
+
+.pilot{
+	width: 100%;
+    height: 630px;
+    background-image: url("../Images/worldwide.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}    
+
+.captain{
+	background-color: #ff9800;
+}
+
+.flag{
+	width: 100px ;
+}
+
+input[type=text] , input[type=date] {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    margin-top:3px;
+    padding: 15px 10px 17px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=number] {
+    width: 80px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    margin-top:3px;
+    padding: 15px 15px 17px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.pirate2{
+	border: solid white 1px;
+    margin-top: 10px;
+	margin-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #ff9800;
+}
+
+label{
+	font-size: 15px;
+	color: white;
+}
+
+#eventsInfo{
+    margin-top: 10px;
+    background: linear-gradient(41deg, #1162c1, #d25f4c, #fdbc38, #d25f4c, #1162c1);
+    background-size: 1000% 1000%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    -o-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:92% 0%}
+    50%{background-position:9% 100%}
+    100%{background-position:92% 0%}
+}
