@@ -99,7 +99,7 @@ $('#worldwideForm').on('submit',function(){
         		}
         		var a =$('<a>',{
         			href:results[i].url,
-        			text:"Buy This Event Here ",
+        			text:"Check Out This Event Here ",
         			width: 200
         		});
         		resultsDiv.append(a);
@@ -109,7 +109,7 @@ $('#worldwideForm').on('submit',function(){
         		resultsDiv.append(p);
         		var a =$('<a>',{
         			href:results[i].venue_url,
-        			text:" Buy At This Venue Here"
+        			text:"Check Out At This Venue Here"
         		});
         		resultsDiv.append(a);
         		var performersRes = results[i].performers;
@@ -125,7 +125,7 @@ $('#worldwideForm').on('submit',function(){
               			resultsDiv.append(p);
               			var a =$('<a>',{
               				href:performersResObj[j].url,
-              				text:" Buy For "+performersResObj[j].name+" Here"
+              				text:"Check Out For "+performersResObj[j].name+" Here"
               			});
               			resultsDiv.append(a);
               			if (performersResObj[j].short_bio) {
@@ -142,7 +142,7 @@ $('#worldwideForm').on('submit',function(){
               		resultsDiv.append(p);
               		var a =$('<a>',{
               			href:performersRes.performer.url,
-              			text:" Buy For "+performersRes.performer.name+" Here"
+              			text:"Check Out For "+performersRes.performer.name+" Here"
               		});
               		resultsDiv.append(a);
               		if (performersRes.performer.short_bio) {

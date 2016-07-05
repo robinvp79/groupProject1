@@ -98,6 +98,8 @@ label{
 }
 
 #eventsInfo{
+    color: white;
+    font-weight: bolder;
     margin-top: 10px;
     background: linear-gradient(41deg, #1162c1, #d25f4c, #fdbc38, #d25f4c, #1162c1);
     background-size: 1000% 1000%;
