@@ -15,9 +15,10 @@ body{
 .pilot{
 	width: 100%;
     height: 630px;
-    background-image: url("../Images/worldwide.png");
+    background-image: url("../Images/worldwide.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin-top: 10px;
 }    
 
